@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*----------------------------------------------Navbar classes start----------------------------------------------------------*/
+ .navbar{
+	width: 100%;
+	height: 70px;
+	background: #3c8cf0;
+ }
+ .logo{
+	width: 146px;
+	margin-top: 16px;
+	margin-left: 45px; 
+ }
+ .menu{
+	margin-top: -30px;
+	margin-left: 270px;
+ }
+ .menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+    margin-left: 15px;
+ }
+/*---------------------------------------------Navbar classes end-------------------------------------------------------------------*/
+
+/*---------------------------------------------Background image classes start-------------------------------------------------------*/
+ .bgimage{
+	background: url("../image/mxbg.png");
+	height: 500px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+/*----------------------------------------------Background image classes end---------------------------------------------------------*/
+
+/*----------------------------------------------Page classes start------------------------------------------------------------------*/
+ .heading1{
+	font-family: Muli,sans-serif;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 15px;
+ }
+ .heading2{
+    font-size: 21px;
+    color: #3c8cf0;
+    text-decoration: none;
+    float: right;
+    margin-right: 65px;
+    margin-top: -25px;
+ }
+ .box{
+	/*border: 1px solid;*/
+	height: 400px;
+	width: 220px;
+	margin-top: 31px;
+	margin-left: 27px;
+	float: left;
+ }
+ .thumbnail{
+	width: 220px;
+	height: 280px;
+ }
+ .text1{
+	color: #35344c;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .1px;
+    margin-left: 7px;
+    margin-top: 20px;
+
+ }
+ .text2{
+	color: #505a78;
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 5px;
+ }
+ .section-loading{
+	font-size: 50px;
+    font-weight: 600;
+    padding: 80px;
+    text-align: center;
+    color: #e6e6e6;
+ }
+/*----------------------------------------------Page clases end----------------------------------------------------------------*/
+
+/*------------------------------------------Section heading classes start---------------------------------------------------------*/
+
+ .section-heading-div{
+ 	/*border: 1px solid;*/
+ 	float: left;
+    width: 311px;
+    height: 227px;
+    margin-left: 55px;
+ }	
+ .main-heading{
+ 	font-size: 21px;
+ 	font-weight: 600;
+    letter-spacing:.1px;
+    color: #35344c;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+ .sub-heading{
+ 	text-align: center;
+ 	font-size: 14px;
+ 	color: #7f7f7f;
+    font-family: Muli,sans-serif;
+    margin-top: -6px;
+ }
+/*------------------------------------------Section heading classes end---------------------------------------------------------*/
+
+/*--------------------------------------------Text heading classes start--------------------------------------------------------*/
+  .text-heading{
+  	font-size: 19px;
+    font-weight: 600;
+    letter-spacing: .1px;
+    color: #35344c;
+    margin-bottom: 10px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 70px;
+  }
+  .subtext-heading{
+  	text-align: justify;
+ 	font-size: 14px;
+ 	color: #7f7f7f;
+    font-family: Muli,sans-serif;
+    margin-top: 10px;
+    float: left;
+    margin-left: 70px;
+    margin-right: 42px;
+  }
+/*---------------------------------------------Text heading classes end----------------------------------------------------------*/
+
+/*--------------------------------------------2nd Section Heading start----------------------------------------------------------*/
+
+ .section2-heading-div{
+ 	/*border: 1px solid;*/
+ 	float: left;
+    width: 204px;
+    height: 400px;
+    margin-left: 39px;
+    margin-top: 50px;
+  }	
+ .main2-heading{
+ 	font-size: 21px;
+ 	font-weight: 600;
+    letter-spacing:.1px;
+    color: #35344c;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+ .sub2-heading{
+ 	text-align: center;
+ 	font-size: 14px;
+ 	color: #7f7f7f;
+    font-family: Muli,sans-serif;
+    margin-top: -6px;
+ }
+/*--------------------------------------------2nd Section Heading end-----------------------------------------------------------*/

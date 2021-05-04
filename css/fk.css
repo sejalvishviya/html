@@ -1,0 +1,298 @@
+
+/*--------------------------------------------Navbar class start-------------------------------------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	background-color: #2874f0;
+	width: 100%;
+	height: 55px;
+    background-attachment: fixed;
+}
+.navbar img{
+	width: 80px;
+	margin-top: 10px;
+	margin-left: 202px;
+	float: left;
+}
+.explore{
+	font-size: 13px;
+    font-style: italic;
+    color: #ffffff;
+    position: relative;
+    right: 291px;
+    top: 20px;
+
+}
+.plus{
+	color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+.navbar a{
+	text-decoration: none;
+}
+.img{
+	position: relative;
+    right: 212px;
+    top: 22px;
+    width: 10px;
+}
+.search{
+	padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    width: 34%;
+    height: 36px;
+    position: relative;
+    top: 11px;
+    left: -269px;
+}
+.s{
+	color: #2874f0;
+	position: relative;
+    left: -305px;
+    top: 13px;
+    font-size: 21px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 185px;
+    margin-top: -32px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.login{
+	color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 19px;
+    padding: 4px 26px;
+    border: 1px solid #dbdbdb;
+    font-weight: bold;
+     font-family: Roboto,Arial,sans-serif;
+}
+.more{
+	color: #ffffff;
+}
+
+/*--------------------------------------------------------Navbar classes end--------------------------------------------------*/
+
+/*---------------------------------------------------------Menu classes start-------------------------------------------------*/
+.menu{
+	width: 100%;
+	height: 103px;
+	background: #ffffff;
+	/*border: 1px solid;*/
+	box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    border-top: 1px solid grey;
+
+.}
+.menu ul{
+	float: left;
+	margin-left: 90px;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 61px;
+    margin-top: 13px;
+}
+.menu ul li img{
+	width: 70px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+.menu ul li p{
+	text-align: center;
+	font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    margin-top: -7px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.menu ul li p:hover{
+	color: #2874f0;
+}
+
+/*---------------------------------------------------------Menu classes end----------------------------------------------------*/
+
+/*---------------------------------------------------------Page classes start---------------------------------------------------*/
+.page{
+	background-color: #f1f3f6;
+	width: 100%;
+	height: 1000px;
+}
+.bgimage{
+	background: url("https://rukminim1.flixcart.com/flap/844/140/image/9126bc13a29c6214.jpg?q=50");
+	height: 280px;
+	width: 98%;
+	background-repeat: no-repeat;
+	background-size: 100% 280px;
+	position: relative;
+	top: 12px;
+    margin-left: 14px;
+}
+.section{
+	border-top: 1px solid #eaeaea;
+    height: 37%;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    width: 98%;
+    margin-left: 14px;
+    position: relative;
+	top: 22px;
+    margin-top: 16px;
+}
+.section div{
+	padding: 15px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.section div p{
+	font-size: 26px;
+    line-height: 32px;
+    display: inline-block;
+    font-weight: 500;
+    font-family: Roboto,Arial,sans-serif;
+}
+.view{
+	background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    float: right;
+    font-family: Roboto,Arial,sans-serif;
+    margin-right: 15px;
+}
+.section ul{
+	float: left;
+	margin-left: 7px;
+}
+.section ul li{
+	display: inline-block;
+	margin-top: 34px;
+    margin-left: 30px;
+}
+.section ul li a{
+	text-decoration: none;
+}
+.section ul li img{
+    padding-bottom: 32px;
+}
+.section ul li p{
+	text-align: center;
+	font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    margin-top: -7px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.section ul li h5{
+    color: #388e3c;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+/*---------------------------------------------------------Page classes end------------------------------------------------------*/
+
+/*------------------------------------------------------Footer classes start-----------------------------------------------------*/
+.footer{
+    border-top: 1px solid #eaeaea;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    width: 98%;
+    margin-left: 14px;
+    position: relative;
+    top: 500px;
+    margin-top: 16px;
+}
+.text-heading{
+    font-size: 17px;
+    font-family: Roboto,Arial,sans-serif;
+    color: #878787;
+    padding: 0 25px;
+}
+.sub-heading{
+    font-size: 11px;
+    text-align: justify;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    color: #878787;
+    padding: 0 25px;
+    position: relative;
+    top: 16px;
+}
+.text-heading2{
+    font-size: 17px;
+    font-family: Roboto,Arial,sans-serif;
+    color: #878787;
+    padding: 0 25px;
+    position: relative;
+    top: -258px;
+}
+.sub-heading2{
+    font-size: 11px;
+    text-align: justify;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    color: #878787;
+    padding: 0 25px;
+    position: relative;
+    top: -242px;
+}
+.footer2{
+    width: 100%;
+    height: 350px;
+    background-color: #212121;
+    position: relative;
+    top: 303px;
+}
+.finner{
+   /* border: 1px solid white;*/
+    width: 200px;
+    height: 219px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 53px;
+}
+.finner p{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 13px;
+    font-family: Roboto,Arial,sans-serif;
+}
+.finner a{
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+    margin-bottom: 15px;
+}
+
+/*-----------------------------------------------------Footer classes end--------------------------------------------------------*/

@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	width: 100%;
+	height: 25px;
+	background-color: #212121;
+}
+.navbar a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+    font-family: Lato;
+    letter-spacing: .1px;
+    margin-left: 630px;
+    line-height: 29px;
+}
+.menu{
+	width: 100%;
+	height: 85px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.logo{
+	width: 159px;
+	margin-top: 18px;
+	margin-left: 162px;
+	float: left;
+}
+ul{
+	margin-left: 536px;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1919;
+    line-height: 95px;
+}
+.menu ul span a{
+	margin-left: 15px;
+	color: #1a1919;
+}
+ul span{
+	margin-left: 20px;
+}
+.menu ul a:hover{
+	color: #af1f31;
+}
+.page{
+	width: 80%;
+	margin: auto;
+}
+.page  pre{
+	text-decoration: none;
+	color:  #af1f31;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: none;
+    margin-top: 67px;
+}
+.page pre span{
+	text-decoration: none;
+	color:  black;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: none;
+    margin-left: 154px;
+    position: relative;
+    top: -17px;
+}
+.page pre:hover{
+	color: black;
+}
+.page h1{
+	font-size: 26px;
+	color: black;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: -23px;
+}
+.page div{
+	width: 390px;
+	height: 460px;
+	margin: auto;
+	float: left;
+}
+.page div img{
+	height: 350px;
+	width: 390px;
+}
+.page div a p{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    text-decoration: none;
+    color: #404040;
+    text-align: center;
+}
+.page div p:hover{
+	color: #af1f31;
+}
+.page div h6{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+.sections{
+	width: 330px;
+	height: 500px;
+	float: left;
+	margin-top: 130px;
+	/*border: 1px solid;*/
+	margin-left: 90px;
+}
+.section-heading1{
+	font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    color: #303030;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+.section-heading2{
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #404040;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 300;
+}

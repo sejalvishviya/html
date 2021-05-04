@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	width: 100%;
+	height: 25px;
+	background-color: #212121;
+}
+.navbar a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+    font-family: Lato;
+    letter-spacing: .1px;
+    margin-left: 630px;
+    line-height: 29px;
+}
+.menu{
+	width: 100%;
+	height: 85px;
+	background-color: #ffffff;
+	text-align: center;
+}
+.logo{
+	width: 159px;
+	margin-top: 18px;
+	margin-left: 162px;
+	float: left;
+}
+ul{
+	margin-left: 536px;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1919;
+    line-height: 95px;
+}
+.menu ul span a{
+	margin-left: 15px;
+	color: #1a1919;
+}
+ul span{
+	margin-left: 20px;
+}
+
+.menu ul a:hover{
+	color: #af1f31;
+}
+.bgimage{
+	background: url("https://cdn.shopify.com/s/files/1/0907/2228/files/Website_Banners-3_2048x.jpg?v=1618062857");
+	height: 850px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 850px;
+}
+.button{
+    color: #ffffff;
+    font-size: 17px;
+    height: 48px;
+    width: 207px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    line-height: 43px;
+    margin-top: 410px;
+    margin-left: 218px;
+}
+.page{
+	width: 80%;
+	margin: auto;
+}
+.page div{
+	width: 580px;
+	height: 580px;
+	float: left;
+	margin: 10px;
+	margin-top: 20px; 
+}
+.bg1{
+	background: url("https://cdn.shopify.com/s/files/1/0907/2228/files/1_85d62396-22fb-4c0e-9972-94cf6254c03c_2048x.png?v=1598108905");
+	background-size: 580px 580px;
+}
+.bg2{
+	background: url("https://cdn.shopify.com/s/files/1/0907/2228/files/2_afef9b3b-8390-4fb2-8e7e-0c193ab5ab3e_2048x.png?v=1598108928");
+	background-size: 580px 580px;
+}
+.bg3{
+	background: url("https://cdn.shopify.com/s/files/1/0907/2228/files/10_d76fa6bd-e7ec-4421-99a5-0865737e3154_2048x.jpg?v=1598425100");
+	background-size: 580px 580px;
+}
+.bg4{
+	background: url("https://cdn.shopify.com/s/files/1/0907/2228/files/11_f87594f3-bd4c-46c2-9036-e1846173a87f_2048x.jpg?v=1598425134");
+	background-size: 580px 580px;
+}
+.page div p{
+	color: #ffffff;
+	text-align: center;
+	line-height: 589px;
+}
+
+.footer{
+	width: 100%;
+	height: 170px;
+	background-color: #191919;
+	margin-top: 1240px;
+}
+.footer-inner{
+	/*border: 1px solid white;*/
+	height: 170px;
+	width: 60%;
+	margin-left: 293px;
+}
+.footer-heading1{
+	font-size: 25px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Lato;
+	text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    top: 31px;
+}
+.footer-heading2{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.sections{
+	width: 330px;
+	height: 500px;
+	float: left;
+	margin-top: 55px;
+	/*border: 1px solid;*/
+	margin-left: 90px;
+}
+.section-heading1{
+	font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    color: #303030;
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+.section-heading2{
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #404040;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 300;
+}
